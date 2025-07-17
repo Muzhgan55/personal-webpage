@@ -1,88 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Muzhgan's Webpage</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skylight Cinema</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <h1>Muzhgan Rahimi</h1>
+  <header class="site-header">
+    <h1>Skylight Cinema</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#now-showing">Now Showing</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <p>
-        Hi! My name is Muzhgan. I was born on March 9th, 2007 in Badakhshan province. I studied at the Afghan-Turk Girls School in Kabul. I was in 9th grade when the government collapsed, and sadly, I couldn't continue school or graduate. Despite that, I’ve never stopped learning on my own.  
-        I'm a curious learner who loves coding, books, and exploring new ideas. I enjoy writing stories, solving math problems, and I have a deep love for music.
-    </p>
-
-
-    <figure>
-        <img src="Myfavimg.jpeg" width="200">
-        <figcaption>This image represents me!</figcaption>
-    </figure>
-
-  
-  <h2>Books I Like</h2>
-    <ul>
-        <li>The Old Man and The Sea</li>
-        <li>The Little Prince</li>
-        <li>If your heart is pure, your story ends happily
-        <li>The kite runner</li>
-
-    </ul>
-
-
-    <h2>My Goals</h2>
-    <ol>
-        <li>Learn HTML, CSS, and JavaScript</li>
-        <li>Create my own website</li>
-        <li>Write a novel</li>
-    </ol>
-
-
-    <div>
-        <h2>Fun Fact About Me</h2>
-        <p>I can stay focused for hours when I’m solving a math problem or writing a story!</p>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to the Movies!</h2>
+      <p>Welcome to the world of movies and blockbusters.</p>
+      <a href="#now-showing" class="btn">See Showtimes</a>
     </div>
+  </section>
 
+  <section id="now-showing" class="now-showing">
+    <h2>Now Showing</h2>
+    <div class="movie-grid">
+      <div class="movie-card">
+        <img src="movie1.jpg" alt="Movie 1 Poster" />
+        <h3>Take off your mask</h3>
+        <p>An epic movie about being your true self.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+      <div class="movie-card">
+        <img src="movie2.jpg" alt="Movie 2 Poster" />
+        <h3>Enchanted Forest</h3>
+        <p>A magical journey into the unknown for the whole family.</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+      <div class="movie-card">
+        <img src="movie3.jpg" alt="Movie 3 Poster" />
+        <h3>The lord of the rings</h3>
+        <p>An epic fantasy advature movie .</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+  </section>
 
-    <h2>My Favorite Website</h2>
-    <p><a href="https://amalaeducation.org/" target="_blank">Amala Learning Bridge Programme</a></p>
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Skylight Cinema is your destination for the best movie experience in town!</p>
+  </section>
 
- 
-   <h2>My Weekly Schedule</h2>
-    <table border="1">
-        <tr>
-            <th>Day</th>
-            <th>Activity</th>
-        </tr>
-        <tr>
-            <td>Monday</td>
-            <td>Practice HTML & CSS</td>
-        </tr>
-        <tr>
-            <td>Tuesday</td>
-            <td>Read books</td>
-        </tr>
-        <tr>
-            <td>Wednesday</td>
-            <td>Write short stories</td>
-        </tr>
-    </table>
-
-
-    <h2>Contact Me</h2>
-    <form>
-        <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea><br>
-
-        <button type="submit">Send</button>
-    </form>
-
-    <footer>
-        <p>© Muzhgan Rahimi, 2025</p>
-    </footer>
+  <footer class="site-footer">
+    <p>&copy; 2025 Skylight Cinema</p>
+  </footer>
 
 </body>
 </html>
