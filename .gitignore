@@ -1,0 +1,14 @@
+# Ignore OS and editor files
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore node_modules if any
+node_modules/
+
+# Ignore all AppData system files
+AppData/
